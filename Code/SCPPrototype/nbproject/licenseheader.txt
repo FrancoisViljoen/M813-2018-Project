@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}License terms to be defined.
+${licensePrefix}Currently - Copyright Reserved 2018
+${licensePrefix}Francois Viljoen
+<#if licenseLast??>
+${licenseLast}
+</#if>
