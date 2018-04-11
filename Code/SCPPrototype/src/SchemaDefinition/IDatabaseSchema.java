@@ -10,7 +10,5 @@ package SchemaDefinition;
  * @author Francois Viljoen
  */
 public interface IDatabaseSchema {    
-    public ITable[] getTables();
-    
-    public void setTables(ITable[] _tables);
+    public ITable[] getTables();   
 }

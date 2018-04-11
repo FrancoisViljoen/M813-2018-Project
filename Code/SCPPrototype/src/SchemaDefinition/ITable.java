@@ -11,7 +11,6 @@ package SchemaDefinition;
  * @author Francois Viljoen
  */
 public interface ITable {
-    public String getDisplayName();
-    
-    public void setDisplayName(String _name);
+    public String getName();
+  
 }
