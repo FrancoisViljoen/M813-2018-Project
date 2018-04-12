@@ -13,5 +13,13 @@ package SchemaDefinition;
  * @author Francois Viljoen
  */
 public interface IDatabaseRelationship {
+    /** Gets a reference to the parent field of the relationship. 
+     * @return A reference to the parent field.
+     */
+    IField getParentField();
     
+    /** Gets a reference to the child field of the relationship. 
+     * @return A reference to the child field.
+     */
+    IField getChildField();
 }
